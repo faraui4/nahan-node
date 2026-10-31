@@ -1,0 +1,16 @@
+{
+  "name": "nahan-node",
+  "version": "2.9.4",
+  "private": true,
+  "type": "module",
+  "main": "server.js",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "build": "node build.mjs",
+    "prestart": "node build.mjs",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}
